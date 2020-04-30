@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bgimg-1, .bgimg-2 {
+ position: relative;
+ opacity: 0.65;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url(../images/bgimg-1.png);
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url(../images/bg.jpg);
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption-text {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.underline {
+  color: #3b5998;
+}
+
+header {
+  display: inline-block;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 10px;
+  z-index: 10;
+}
+
+.header-right{
+  float: right;
+  background-color: #111;
+  opacity: 0.65;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.menu-wrapper {
+  background-color: #111;
+  text-align: center;
+  margin: 0;
+  padding: 26.5px 25px;
+}
+
+.header-right h4 {
+  display: inline;
+  /* text-align: center; */
+  padding: 0 20px;
+}
+
+.header-right a {
+  text-align: center;
+}
+
+.header-left {
+  float: left;
+  margin-left: 10px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.clear {
+  clear: left;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+h4 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font: 12px "Lato", sans-serif;
+  text-align: center;
+}
+
+/* OUR MEMBER */
+.member-wrapper {
+  height: 600px;
+}
+
+.member {
+  float: left;
+  width: 20%;
+}
+
+.member-img {
+  position: relative;
+  display: block;
+  width: 200px;
+}
+
+.registry {
+  letter-spacing: 2px;
+  font: 12px "Lato", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #777;
+}
+
+/* Progress Bar */
+.light-grey {
+  color: #000!important;
+  background-color: #f1f1f1!important;
+}
+
+.round-small {
+  border-radius: 2px;
+}
+
+.tiny {
+  font-size: 10px!important;
+}
+
+.progress-container {
+  padding:0.01em 16px;
+}
+
+.green {
+  color:#fff!important;
+  background-color:#4CAF50!important;
+}
+
+.yellow {
+  color: #000!important;
+  background-color: #ffeb3b!important
+}
+
+.progress-bar-text {
+  letter-spacing: 2px;
+  font: 12px "Lato", sans-serif;
+  text-align: left;
+  margin-bottom: 2px;
+}
+
+/* SUPPORTED BY */
+.supported-wrapper {
+  height: 600px;
+}
+
+/* CONTACT US */
+.contact-wrapper {
+  height: auto;
+  position: relative;
+}
+
+.contact-form {
+  padding-top: 5px;
+  max-width: 400px;
+  margin: 0 auto 20px auto;
+}
+
+.contact-form h4 {
+  margin-top: 14px;
+  margin-bottom: 6px;
+}
+
+input, textarea{
+width: 400px;                       
+margin-bottom: 5px;            
+padding: 5px;            
+border: 1px solid #dee7ec;
+border-radius: 2px;
+}
+
+.button {
+  width: 400px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font: 12px "Lato", sans-serif;
+  text-align: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* FOOTER */
+footer {
+  display: inline-block;
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  background-color: #111;
+}
+
+.footer-right{
+  float: right;
+  color: #fff;
+  background-color: #111;
+  padding: 21px;
+}
+
+.footer-right a {
+  cursor: pointer;
+  padding: 0;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  padding: 0 25px;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right i {
+	background-color:  #111;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	vertical-align: middle;
+}
+
+/* Slide Animation */
+.slide-left-right {
+  text-decoration:none;
+  display: inline-block;
+  color: #fff;
+}
+
+.slide-left-right:after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+  -webkit-transition: width .5s ease, background-color .5s ease;
+  -moz-transition: width .5s ease, background-color .5s ease;
+}
+
+.slide-left-right:hover:after {
+  width: 100%;
+  background: #fff;
+}
